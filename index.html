@@ -22,21 +22,19 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const jsonData = {
-               
-    "keys": [
-      {
-          "kty": "RSA",
-          "alg": "RS384",
-          "n": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmn8Xr8b05kEphStIwazEo2bT1Gh/1OHvvkVbsZoGoLRsDnFHVfEMlTbzZXViGT/6e1tDoIzmRRbGbMdBRSWmcSIOWfc75az9syzUI88Ti8FSRWyh3/to/0iOqnNR1wJss8kXL9OVnVqmzGVXCwccx2EsFIsaiqzZBsDpoqBOTh57DEitpXkR+LT8+iHFdhZ/O49lNy/zpKb/jJAMXYWp0WA0PKBAeOQpmXaJdN79bms8M3TYzIQvLoFC3urDbJ29KZrzQ9Ug7VwcZM2LlGKpm6AEuVbUA7eXdC0K6JBF4vWMkaEd5gEd+YtHvi5nq84l1rmtecIuri8NZnAGTUklVQIDAQAB",
-          "e": "AQAB",
-          "use": "sig",
-          "key_ops": [
-              "verify"
-          ],
-          "ext": true,
-          "kid": "b42349b6f37a9500edb8a905a595qdd7"
-      }
-  ]
+   "keys": [
+        {      
+ "kty": "RSA",         
+ "alg": "RS384",
+"n":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmn8Xr8b05kEphStIwazEo2bT1Gh/1OHvvkVbsZoGoLRsDnFHVfEMlTbzZXViGT/6e1tDoIzmRRbGbMdBRSWmcSIOWfc75az9syzUI88Ti8FSRWyh3/to/0iOqnNR1wJss8kXL9OVnVqmzGVXCwccx2EsFIsaiqzZBsDpoqBOTh57DEitpXkR+LT8+iHFdhZ/O49lNy/zpKb/jJAMXYWp0WA0PKBAeOQpmXaJdN79bms8M3TYzIQvLoFC3urDbJ29KZrzQ9Ug7VwcZM2LlGKpm6AEuVbUA7eXdC0K6JBF4vWMkaEd5gEd+YtHvi5nq84l1rmtecIuri8NZnAGTUklVQIDAQAB",
+            "e": "AQAB",
+            "key_ops": [
+                "verify"
+            ],
+            "ext": true,
+            "kid": "BDF7A877-3103-C459-0780-E3F6386E60ED"
+        }
+    ]
             };
 
             document.getElementById('jsonDisplay').textContent = JSON.stringify(jsonData, null, 2);
